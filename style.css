@@ -1,0 +1,56 @@
+body{
+  margin: 0 auto;
+}
+.landingPage{
+     margin: 0 auto 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4F2;
+}
+.poop{
+  min-height:100vh;
+}
+
+h1{
+  font-family: 'Inconsolata', monospace;
+  color: #2474C6;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, p{
+    text-align: center;
+
+}
+
+code {
+    background-color: #EFF0EE;
+    padding: 1px;
+    color: #C23054;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#about{
+    margin: 30px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
