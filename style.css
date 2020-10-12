@@ -23,14 +23,14 @@ section p{
   font-size: 3rem;
 }
 
-section p.link{
+section p.link {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
 }
 
 #about p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 h1, p, section{
@@ -43,15 +43,11 @@ code {
     color: #C23054;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 #tech-stack p{
   font-size: 1.5rem;
-}
-
-#about{
-    margin: 30px;
 }
 
 a:link {
@@ -68,4 +64,17 @@ a:hover {
 
 a:active {
   text-decoration: underline;
+}
+
+article p{
+  text-align: left;
+}
+
+article {
+  margin: 5% 10%;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
 }
